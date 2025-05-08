@@ -1,4 +1,5 @@
 import os
+os.environ['XDG_CACHE_HOME'] = os.path.expanduser('~/.yt-dlp-cache')
 import argparse
 import yt_dlp
 
@@ -43,4 +44,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
 
